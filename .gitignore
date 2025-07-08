@@ -1,3 +1,6 @@
 # pastas de IDEs
 .vscode/
 .idea/
+
+#Arquivo .exe para rodar
+*.exe
