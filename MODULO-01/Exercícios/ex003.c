@@ -16,22 +16,23 @@ void main() {
     float peso;
 
     // Menu Superior
-    printf("<<< EX003 - Dados >>>\n");
+    printf("      <<< EX003 - Dados >>>\n");
     printf("\n");
 
     // Coleta de Dados
-    printf("Qual é seu nome? ");
+    printf("---------------------------------\n");
+    printf(" Qual é seu nome? ");
         fgets(nome, sizeof(nome), stdin);
         retirar_quebra(nome);
-    printf("Quantos anos você tem? ");
+    printf(" Quantos anos você tem? ");
         scanf("%d", &idade);
-    printf("Qual é seu peso? (Kg) ");
+    printf(" Qual é seu peso? (Kg) ");
         scanf("%f", &peso);
     printf("\n");
 
     // Menu Inferior
     printf("-------<<< PROCESSANDO >>>-------\n");
-    printf("Seu nome é %s\nVocê tem %d anos\nPesa %.2f Kg\n", nome, idade, peso);
-    printf("FIM!\n");
+    printf(" Seu nome é %s\n Você tem %d anos\n Pesa %.2fKg\n", nome, idade, peso);
+    printf(" FIM!\n");
 
 }

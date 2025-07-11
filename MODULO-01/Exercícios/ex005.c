@@ -14,7 +14,7 @@ void main() {
     printf("\n");
 
     printf("--------------------------------------------------------\n");
-    printf("Estou pensando em um número entre 0 e 5. Tente Advinhar!\n");
+    printf("Estou pensando em um número entre 1 e 5. Tente Advinhar!\n");
     printf("Qual seu palpite? ");
     scanf("%d", &m);
     printf("Eu pensei no número %d e você pensou no número %d\n", n,m);

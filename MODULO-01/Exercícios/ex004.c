@@ -55,11 +55,11 @@ int main() {
 
     // Menu Inferior
     printf("Listagem Completa\n");
-    printf("-------------------------------------\n");
+    printf("---------------------------------------\n");
     printf("NOME\t\t\tSEXO\tNOTA\n");
-    printf("%-16s\t  %c  \t%4.1f\n", nome1, sexo1, nota1);
-    printf("%-16s\t  %c  \t%4.1f\n", nome2, sexo2, nota2);
-    printf("%-16s\t  %c  \t%4.1f\n", nome3, sexo3, nota3);
-    printf("-------------------------------------\n");
+    printf("%-20s\t %c \t%4.1f\n", nome1, sexo1, nota1);
+    printf("%-20s\t %c \t%4.1f\n", nome2, sexo2, nota2);
+    printf("%-20s\t %c \t%4.1f\n", nome3, sexo3, nota3);
+    printf("---------------------------------------\n");
 
 }
