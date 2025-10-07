@@ -4,3 +4,6 @@
 
 #Arquivo .exe para rodar
 *.exe
+
+#Arquivo de testes
+teste.c
